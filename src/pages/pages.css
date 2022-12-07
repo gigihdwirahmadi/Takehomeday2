@@ -1,0 +1,59 @@
+body{
+    background-color: #E6DDC4;
+}
+.input{
+    height: 300px;
+    width: 500px;
+    background-color: #678983;
+    display: grid;
+    align-items: center;
+    border-radius: 30px;
+    justify-items: center;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.input input{
+    background-color: #F0E9D2;
+    height: 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.wall{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto 300px;
+    align-items: center;
+    justify-items: center;
+}
+textarea{
+    height: 150px;
+    width: 300px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: #F0E9D2;
+}
+button{
+    margin: 10px;
+    height: 30px;
+    width: 80px;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.submit{
+    border: none;
+    width: 70px;
+    height: 30px;
+}
